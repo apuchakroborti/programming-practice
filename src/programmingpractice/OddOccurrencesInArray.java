@@ -10,5 +10,12 @@ package programmingpractice;
  * @author USER
  */
 public class OddOccurrencesInArray {
+    public int solution(int[] A){
+        int res=0;
+        for(int i: A){
+            res = res ^ i;
+        }
+        return res;
+    }
     
 }
