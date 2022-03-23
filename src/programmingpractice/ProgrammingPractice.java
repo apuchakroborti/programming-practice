@@ -6,6 +6,11 @@
 package programmingpractice;
 
 import java.util.Scanner;
+import lessons.FrogJmp;
+import lessons.FrogRiverOne;
+import lessons.PermCheck;
+import lessons.PermMissingElem;
+import lessons.TapeEquilibrium;
 
 /**
  *
@@ -18,12 +23,40 @@ public class ProgrammingPractice {
      */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Input A: ");
-        int val1=input.nextInt();
-        System.out.println("Input B: ");
-        int val2=input.nextInt();
-        ThreeLetters letters=new ThreeLetters();
-        System.out.println("ThreeLetters: "+letters.solution(val1, val2));
+        
+        int[] arr=new int[]{4,1,3};
+        PermCheck check = new PermCheck();
+        System.out.println("Perm Check: "+check.solution(arr));
+        
+//        int[] arr=new int[]{1,3,1,4,2,3,5,4};
+//        int X =5;
+//        FrogRiverOne frogRiverOne = new FrogRiverOne();
+//        System.out.println("Seconds: "+frogRiverOne.solution(X, arr));
+//        int[] arr=new int[]{3,1,2,4,3};
+//            int[] arr=new int[]{3,1};
+//        TapeEquilibrium tapeEquilibrium = new TapeEquilibrium();
+//        System.out.println("Difference: "+tapeEquilibrium.solution(arr));
+        
+//        PermMissingElem elem = new PermMissingElem();
+//        int[] arr=new int[]{2, 3,5,4};
+//        System.out.println("Missing number: "+elem.solution(arr));
+        
+        
+        
+//        FrogJmp frogJmp = new FrogJmp();
+//        int val1=input.nextInt();
+//        int val2=input.nextInt();
+//        int val3=input.nextInt();
+//        System.out.println("Steps: "+frogJmp.solution(val1, val2, val3));
+        
+        
+        
+//        System.out.println("Input A: ");
+//        int val1=input.nextInt();
+//        System.out.println("Input B: ");
+//        int val2=input.nextInt();
+//        ThreeLetters letters=new ThreeLetters();
+//        System.out.println("ThreeLetters: "+letters.solution(val1, val2));
         
         
 //        SparseBinaryDecomposition sp = new SparseBinaryDecomposition();
