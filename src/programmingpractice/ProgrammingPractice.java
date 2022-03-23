@@ -6,8 +6,10 @@
 package programmingpractice;
 
 import java.util.Scanner;
+import lessons.Distinct;
 import lessons.FrogJmp;
 import lessons.FrogRiverOne;
+import lessons.PassingCars;
 import lessons.PermCheck;
 import lessons.PermMissingElem;
 import lessons.TapeEquilibrium;
@@ -23,10 +25,21 @@ public class ProgrammingPractice {
      */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        int[] arr=new int[]{2,1,1,2,3,1};
+        Distinct distinct = new Distinct();
+        System.out.println("Distinct: "+distinct.solution(arr));
         
-        int[] arr=new int[]{4,1,3};
-        PermCheck check = new PermCheck();
-        System.out.println("Perm Check: "+check.solution(arr));
+//        int[] arr=new int[]{0,1,0,1,1};
+//        Distinct d=new Distinct();
+//        System.out.println("Cars: "+d.solution(arr));
+        
+//        int[] arr=new int[]{0,1,0,1,1};
+//        PassingCars cars = new PassingCars();
+//        System.out.println("Cars: "+cars.solution(arr));
+        
+//        int[] arr=new int[]{4,1,3};
+//        PermCheck check = new PermCheck();
+//        System.out.println("Perm Check: "+check.solution(arr));
         
 //        int[] arr=new int[]{1,3,1,4,2,3,5,4};
 //        int X =5;
