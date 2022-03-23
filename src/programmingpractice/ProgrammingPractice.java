@@ -5,6 +5,7 @@
  */
 package programmingpractice;
 
+import codilitypractice.ThreeLetters;
 import java.util.Scanner;
 
 /**
@@ -17,10 +18,30 @@ public class ProgrammingPractice {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        LongestPassword  longestPassword = new LongestPassword();
-        String str="test 5 a0vA pass0507 ?xy1 sdfksdshffsdf234";
-        System.out.println("Result: "+longestPassword.solution(str));
+        //from codility practice package
+//        Scanner input = new Scanner(System.in);
+//        System.out.println("Input A: ");
+//        int val1=input.nextInt();
+//        System.out.println("Input B: ");
+//        int val2=input.nextInt();
+//        ThreeLetters letters=new ThreeLetters();
+//        System.out.println("ThreeLetters: "+letters.solution(val1, val2));
+        //end
         
+//        SparseBinaryDecomposition sp = new SparseBinaryDecomposition();
+//        System.out.println("Solution is: "+sp.solution(val));
+
+//        ParkingBill parkingBill = new ParkingBill();
+//        System.out.println("Bill: "+parkingBill.solution("10:00", "23:00"));
+
+//        ParityDegree parityDegree = new ParityDegree();
+//        System.out.println("Power of 2 max Res: "+parityDegree.solution(val));
+        
+        
+//        LongestPassword  longestPassword = new LongestPassword();
+//        String str="test 5 a0vA pass507 ?xy1 sdfksdshffsdf234";
+//        System.out.println("Result: "+longestPassword.solution(str));
+//        
         
         
 //        Scanner input = new Scanner(System.in);
