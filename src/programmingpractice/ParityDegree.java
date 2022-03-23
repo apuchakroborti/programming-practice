@@ -1,4 +1,4 @@
-package codilitypractice;
+package programmingpractice;
 
 public class ParityDegree {
     public int solution(int N){

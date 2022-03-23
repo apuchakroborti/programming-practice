@@ -1,4 +1,4 @@
-package codilitypractice;
+package programmingpractice;
 
 public class ThreeLetters {
     public String solution(int A, int B){

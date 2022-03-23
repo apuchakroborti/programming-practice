@@ -1,5 +1,5 @@
 
-package codilitypractice;
+package programmingpractice;
 
 import java.util.*;
 

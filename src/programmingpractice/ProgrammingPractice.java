@@ -5,7 +5,6 @@
  */
 package programmingpractice;
 
-import codilitypractice.ThreeLetters;
 import java.util.Scanner;
 
 /**
@@ -18,15 +17,14 @@ public class ProgrammingPractice {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        //from codility practice package
-//        Scanner input = new Scanner(System.in);
-//        System.out.println("Input A: ");
-//        int val1=input.nextInt();
-//        System.out.println("Input B: ");
-//        int val2=input.nextInt();
-//        ThreeLetters letters=new ThreeLetters();
-//        System.out.println("ThreeLetters: "+letters.solution(val1, val2));
-        //end
+        Scanner input = new Scanner(System.in);
+        System.out.println("Input A: ");
+        int val1=input.nextInt();
+        System.out.println("Input B: ");
+        int val2=input.nextInt();
+        ThreeLetters letters=new ThreeLetters();
+        System.out.println("ThreeLetters: "+letters.solution(val1, val2));
+        
         
 //        SparseBinaryDecomposition sp = new SparseBinaryDecomposition();
 //        System.out.println("Solution is: "+sp.solution(val));

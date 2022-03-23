@@ -1,4 +1,4 @@
-package codilitypractice;
+package programmingpractice;
 public class ParkingBill {
      public int solution(String E, String L){
          String[] start=E.split(":");
