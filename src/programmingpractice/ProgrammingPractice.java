@@ -6,13 +6,16 @@
 package programmingpractice;
 
 import java.util.Scanner;
+import lessons.Brackets;
 import lessons.Distinct;
 import lessons.FrogJmp;
 import lessons.FrogRiverOne;
+import lessons.MaxProductOfThree;
 import lessons.PassingCars;
 import lessons.PermCheck;
 import lessons.PermMissingElem;
 import lessons.TapeEquilibrium;
+import lessons.Triangle;
 
 /**
  *
@@ -25,9 +28,29 @@ public class ProgrammingPractice {
      */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int[] arr=new int[]{2,1,1,2,3,1};
-        Distinct distinct = new Distinct();
-        System.out.println("Distinct: "+distinct.solution(arr));
+        Brackets bracket= new Brackets();
+//        String str= new String("{[()()]}");
+        String str = new String("([)()]");
+        System.out.println("Brackets: "+bracket.solution(str));
+        
+//        Triangle tri = new Triangle();
+//        int[] arr = new int[]{-2147483648,0,48,2147483600, 2147483647};
+//        int[] arr=new int[]{10,2,5,1,8,20};
+//        int[] arr=new int[]{-30,-29,2,3,4,5,6};
+//            int[] arr = new int[]{-5, 5, -5, 4};
+//        System.out.println("Triangle present: "+tri.solution(arr));
+        
+        
+        
+//        MaxProductOfThree maxProductOfThree = new MaxProductOfThree();
+//        int[] arr=new int[]{-3,1,2,-2,5,6};
+////        int[] arr=new int[]{-30,-29,2,3,4,5,6};
+////            int[] arr = new int[]{-5, 5, -5, 4};
+//        System.out.println("MaxProductOfThree: "+maxProductOfThree.solution(arr));
+        
+//        int[] arr=new int[]{2,1,1,2,3,1};
+//        Distinct distinct = new Distinct();
+//        System.out.println("Distinct: "+distinct.solution(arr));
         
 //        int[] arr=new int[]{0,1,0,1,1};
 //        Distinct d=new Distinct();
