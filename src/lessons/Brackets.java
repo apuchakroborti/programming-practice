@@ -2,6 +2,7 @@ package lessons;
 
 import java.util.Stack;
 
+//It is also the solution of Nesting 
 public class Brackets {
     
     public int solution(String S){

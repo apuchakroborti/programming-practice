@@ -8,14 +8,22 @@ package programmingpractice;
 import java.util.Scanner;
 import lessons.Brackets;
 import lessons.Distinct;
+import lessons.Dominator;
+import lessons.EquiLeader;
+import lessons.Fish;
 import lessons.FrogJmp;
 import lessons.FrogRiverOne;
 import lessons.MaxProductOfThree;
+import lessons.MaxProfit;
 import lessons.PassingCars;
 import lessons.PermCheck;
 import lessons.PermMissingElem;
 import lessons.TapeEquilibrium;
 import lessons.Triangle;
+import lessons.WallStoneWorkable;
+import numbers.ChocolatesByNumbers;
+import numbers.CountDistinctSlices;
+import numbers.CountTriangles;
 
 /**
  *
@@ -28,10 +36,83 @@ public class ProgrammingPractice {
      */
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        Brackets bracket= new Brackets();
+        CountTriangles countTriangles=new CountTriangles();
+        int A[]=new int[]{10,2,5,1,8,12};
+        System.out.println("Count Triangles: "+countTriangles.solution(A));
+        
+
+//        CountDistinctSlices count = new CountDistinctSlices();
+//        int M=6;
+//        int A[]=new int [] {3,4,5,5,2};
+//        System.out.println("CountDistinctSlices: "+count.solution(M, A));
+//        ChocolatesByNumbers cho = new ChocolatesByNumbers();
+//        int N=input.nextInt();
+//        int M=input.nextInt();
+//        int N=1000000000;
+//        int M=1;
+//        int N =(int) (Math.pow(3, 9)* Math.pow(2, 14));
+//        int M=(int) (Math.pow(2, 14)*Math.pow(2, 14));
+//        System.out.println("Max chocolate: "+cho.solution(N, M));
+        
+//        int arr[]=new int [] { 23171, 21011, 21123, 21366, 21013, 21367 };
+//        int arr[] = new int[]{5, -7, 3, 5, -2, 4, -1 };
+//        MaxProfit pro=new MaxProfit();
+//        System.out.println("MaxProfit: "+pro.solution(arr));
+        
+        
+//        int[] arr=new int [] { 4, 3, 4, 4, 4, 2};
+//        int[] arr=new int [] {4, 4, 2, 5, 3, 4, 4, 4 };
+//        EquiLeader  el = new EquiLeader();
+//        System.out.println("Equi Leader: "+el.solution(arr));
+        
+//        Dominator d=new Dominator();
+//        int[] arr=new int [] { 8, 8, 8, 7, 9, 8, 7, 5, 8 };
+//        int[] arr=new int [] { };
+//        System.out.println("Dominator: "+d.solution(arr));
+        
+//        StoneWallNew st = new StoneWallNew();
+//        int[] arr=new int [] { 8, 8, 5, 7, 9, 8, 7, 4, 8 };
+//        int[] arr = new int [] { 8, 8, 5, 7, 9, 8, 7, 4, 8 }; //7
+//        int[] arr=new int [] { 8, 8, 5, 7, 9, 8, 7, 5, 8 }; //6
+      //        int[] arr = new int [] { 1, 2, 3, 4, 3 }; //4 
+//      int[] arr = new int [] { 8, 8, 5 }, 2 };
+//      int[] arr = new int [] { 8, }, 1 },
+//      int[] arr = new int [] { 8, 8 }, 1 },
+//      int[] arr = new int [] { 8, 8, 8, 8, 8 }, 1 },
+//      int[] arr = new int [] { 1000000000 }, 1 },
+//      int[] arr = new int [] { 1000000000, 2 }, 2 },
+//      int[] arr = new int [] { 2, 1000000000, 2 }, 2 },
+//      int[] arr = new int [] { 2, 1000000000, 2, 1000000000 }, 3 },
+//      int[] arr = new int [] { 2, 1000000000, 2, 1000000000, 1000000000 },
+//        System.out.println("Minimum Wall: "+st.solution(arr));
+
+//        int[] arr=new int [] { 8, 8, 5, 7, 9, 8, 7, 4, 8 };
+//        WallStoneWorkable st=new WallStoneWorkable();
+//        System.out.println("Minimum Wall: "+st.solution(arr));
+        
+//        Fish fish = new Fish();
+//        int[] A=new int[]{4,3,2,1,5};
+//        int[] B=new int[]{0,1,0,0,0};
+//        int[] A=new int[]{0, 1};
+//        int[] B=new int[]{1, 1};
+//        int A[]=new int [] { 4, 3, 2, 1, 5 };
+//        int B[]=new int [] { 1, 0, 1, 0, 1 };
+//        int A[] = new int [] { 7, 4, 3, 2, 5, 6 };
+//        int B[]=new int [] { 0, 1, 1, 1, 0, 1 };
+//        int A[] = new int [] { 4, 3, 2, 5, 6 };
+//        int B[] = new int [] { 1, 0, 1, 0, 1 };
+//        int A[] = new int [] { 4, 3, 2, 1, 5 };
+//        int B[] = new int [] { 0, 1, 1, 0, 0 };
+//          int A[] = new int [] { 3 };
+//          int B[] = new int [] { 1 };
+//            int A[] = new int [] { 3, 4, 2, 1, 5 };
+//            int B[] = new int [] { 1, 0, 0, 0, 0 };
+//        System.out.println("Alive fish: "+fish.solution(A, B));
+        
+//        Brackets bracket= new Brackets();
 //        String str= new String("{[()()]}");
-        String str = new String("([)()]");
-        System.out.println("Brackets: "+bracket.solution(str));
+//        String str = new String("([)()]");
+//        System.out.println("Brackets: "+bracket.solution(str));
         
 //        Triangle tri = new Triangle();
 //        int[] arr = new int[]{-2147483648,0,48,2147483600, 2147483647};
